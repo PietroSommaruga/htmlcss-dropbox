@@ -13,12 +13,40 @@ body{
     height: 2000px;
 }
 
-
-/* nav */
+/* generali */
 .row::after {
     content:"";
     display: table;
     clear: both;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.blu{
+    padding: 5px 15px;
+    background: rgb(14, 97, 251);
+    color: #fff;
+}
+
+/* // generali */
+
+
+
+
+
+
+/* nav */
+li a:hover{
+    color: gray;
 }
 
 .row-1, .row-2, .row-3{
@@ -42,22 +70,6 @@ body{
     height: 20px;
     margin: 15px 10px;
     
-}
-
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 0 15px;
-}
-ul li a, .p1 a{
-    text-decoration: none;
-    color: black;
-}
-
-.blu{
-    padding: 5px 15px;
-    background: rgb(14, 97, 251);
-    color: #fff;
 }
 /* nav */
 
@@ -112,18 +124,15 @@ ul li a, .p1 a{
     height: 100%;
 }
 
-a:hover{
-    color: gray;
-}
 /*// main 1 */
 
 /* main 2 */
 
 .container-2{
-    margin-top: 50px;
+    margin-top: 100px;
     width: 100%;
-    height: 500px;
-    border: 1px solid black;
+    height: 1000px;
+    /* border: 1px solid black; */
 }
 
 .fl{
@@ -132,8 +141,8 @@ a:hover{
 
 .rov{
     width: calc(33% - 10px);
-    height: 500px;
-    border: 1px solid black;
+    height: 1000px;
+    border: 1px solid rgb(200, 200, 200);
 }
 
 #central{
@@ -143,7 +152,7 @@ a:hover{
 .titolo{
     width: 100%;
     height: 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(200, 200, 200);
     text-align: center;
     line-height: 30px;
 }
@@ -151,7 +160,7 @@ a:hover{
 .content{
     width: 100%;
     height: calc(100% - 30px);
-    padding-left: 20px;
+    padding:20px 30px;
 }
 
 .content h2{
@@ -167,4 +176,33 @@ a:hover{
 
 .text{
     margin: 20px 0;
+}
+
+.tripla a{
+    color: #fff;
+}
+
+.tripla{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#acquista{
+    color: rgb(42, 96, 246);
+}
+
+.bordo{
+    margin-top: 20px;
+    float: left;
+    width: 50px;
+    height: 1px;
+    background: rgb(200, 200, 200);
+}
+
+.lista{
+    margin-top: 70px;
+}
+
+.lista ul li{
+    padding: 10px 0;
 }
