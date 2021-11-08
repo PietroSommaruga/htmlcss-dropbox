@@ -6,11 +6,11 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 .page{
-    width: 1100px;
-    height: 2000px;
+    width: 1200px;
+    height: 10000px;
 }
 
 /* generali */
@@ -37,6 +37,19 @@ a{
     color: #fff;
 }
 
+.acquista{
+    color: rgb(42, 96, 246);
+    text-decoration: underline;
+}
+
+.fl{
+    float: left;
+    position: relative;
+}
+
+.fr{
+    float: right;
+}
 /* // generali */
 
 
@@ -54,13 +67,6 @@ li a:hover{
     background: #fff;
     line-height: 50px;
 }
-.row-1 {
-    float: left;
-}
-
-.row-2 {
-    float: left;
-}
 
 .row-3 {
     float: right;
@@ -77,7 +83,7 @@ li a:hover{
 .container {
     width: 100%;
     height: 450px;
-    background: rgb(14, 245, 168);
+    background: rgba(45, 194, 253, 0.568);
     /* border: 1px solid black; */
 }
 
@@ -124,24 +130,37 @@ li a:hover{
     height: 100%;
 }
 
+.arrow-container img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
 /*// main 1 */
 
 /* main 2 */
 
+
+
 .container-2{
-    margin-top: 100px;
+    margin: 100px 0;
     width: 100%;
-    height: 1000px;
+    height: 900px;
     /* border: 1px solid black; */
 }
 
-.fl{
-    float: left;
+.header-2{
+    margin-bottom: 30px;
+}
+
+.container-2 h1{
+    padding: 40px 0;
 }
 
 .rov{
     width: calc(33% - 10px);
-    height: 1000px;
+    height: 900px;
     border: 1px solid rgb(200, 200, 200);
 }
 
@@ -176,7 +195,30 @@ li a:hover{
 
 .text{
     margin: 20px 0;
+    position: relative;
 }
+
+
+
+.fa-check{
+    color: rgb(42, 96, 246);
+}
+/* .user::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    position: absolute;
+    left: -16px;
+    
+    
+} */
+
+/* .item::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+} */
+
 
 .tripla a{
     color: #fff;
@@ -187,9 +229,6 @@ li a:hover{
     margin-bottom: 30px;
 }
 
-.acquista{
-    color: rgb(42, 96, 246);
-}
 
 .bordo{
     margin-top: 20px;
@@ -205,4 +244,258 @@ li a:hover{
 
 .lista ul li{
     padding: 10px 0;
+}
+/* // main 2 */
+
+/* main 3 */
+.container-3{
+    margin-top: 300px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.team{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    text-align: center;
+}
+
+.team-content{
+    width: 100%;
+    height: 170px;
+    padding: 20px 30px;
+}
+
+.team-content p{
+    padding-top: 20px;
+}
+
+#contatta{
+    float: right;
+    padding: 5px 50px;
+}
+
+/*// main 3 */
+
+/* main 4 */
+.container-4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 500px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.foto{
+    width: 50%;
+    height: 500px;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+}
+
+.testo{
+    width: 50%;
+    height: 500px;
+    padding: 40px 50px;
+}
+.testo p {
+    padding: 40px 0;
+}
+
+.testo button {
+    padding: 10px 20px;
+}
+
+/*// main 4 */
+
+.container-5{
+    margin-top: 20px;
+    width: 100%;
+    height: 1200px;
+    /* border: 1px solid rgb(200, 200, 200); */
+}
+
+.container-5 h1{
+    padding-bottom: 50px;
+}
+
+.lunga{
+    width: 33.333%;
+    height: 1200px;
+    /* border: 1px solid rgb(200, 200, 200); */
+}
+
+.mezzo{
+    width: 100%;
+    height: 50%;
+    /* border-bottom: 1px solid rgb(200, 200, 200); */
+}
+
+.alta img{
+    width: 100%;
+    height: 100%;
+}
+
+.bassa{
+    padding: 10px 20px;
+}
+.bassa h2{
+    padding-bottom: 20px;
+}
+
+/* //main 5 */
+
+/* main 6 */
+.container-6{
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        /* border: 1px solid rgb(200, 200, 200); */
+}
+
+.quadrato{
+    width: 30%;
+    height: 300px;
+}
+
+.quadrati-dentro{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid rgb(200, 200, 200); */
+}
+
+
+.grande{
+    width: 40%;
+    height: 300px;
+    background:rgba(200, 200, 200, 0.486);
+}
+
+.container-6 img{
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    filter: invert(100%);
+
+}
+
+.verde{
+    background: rgb(97, 189, 117);
+    border: 10px solid rgb(159, 241, 134);
+}
+
+.bordeaux{
+    background: rgb(102, 13, 61);
+}
+
+.blue{
+    background: rgb(28, 91, 240);
+}
+
+.rosso{
+    background: red;
+}
+
+.giallo{
+    background: rgb(224, 221, 20);
+}
+
+.azzurro{
+    background: rgb(63, 130, 238);
+}
+
+.container-7{
+    width: 100%;
+    height: 300px;
+    background:rgba(89, 151, 251, 0.5);
+
+}
+
+.sette{
+    width: 50%;
+    height: 300px;
+    padding: 100px 0 0 200px ;
+}
+
+.sette h1{
+    color: rgb(128, 0, 0);
+}
+
+.container-7 button{
+    padding: 10px 70px;
+    border: none;
+}
+
+/* container-7 */
+
+/* container-8  */
+.container-8{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.otto{
+    width: 100%;
+    height: 500px;
+    padding: 50px 200px;
+}
+
+.righe{
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px  solid rgba(200, 200, 200, 0.698);
+    border-bottom: 1px  solid rgba(200, 200, 200, 0.671);
+}
+
+.otto h1{
+    margin-bottom: 50px;
+}
+/* //container-8 */
+
+/* container-9 */
+.container-9{
+    width: 100%;
+    height: 300px;
+    background: rgb(0, 0, 0);
+    padding: 50px 200px 0 100px;
+}
+
+.footer{
+    width: 20%;
+    height: 250px;
+    color: #fff;
+}
+
+.container-9 h3{
+    padding-bottom: 20px;
+}
+
+.container-9 ul li{
+    display: block;
+    padding: 2px 0;
+}
+
+.container-9 ul li a{
+    color: #fff;
+}
+
+.container-10{
+    width: 100%;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    padding-left: 100px;
+}
+
+.italiano{
+    width: 100px;
+    height: 50px;
+    border-top: 1px solid rgba(200, 200, 200, 0.671);
+    padding-top: 30px;
+    color: rgba(200, 200, 200, 0.671);
 }
