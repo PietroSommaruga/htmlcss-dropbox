@@ -436,9 +436,8 @@ li a:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(50%, - 50%);
+    transform: translate(-50%,-50%);
     filter: invert(100%);
-    /* ERRORE TRANSLATE */
 }
 
 .verde{
@@ -485,10 +484,6 @@ li a:hover{
 }
 
 .sette h1{
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(50%, - 50%); */
     color: rgb(128, 0, 0);
 }
 
