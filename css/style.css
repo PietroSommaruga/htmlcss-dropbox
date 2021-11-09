@@ -204,7 +204,7 @@ li a:hover{
 
 .i-user::before {
     position: absolute;
-    left: -20px;
+    left: -22px;
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     content: "\f007";
@@ -214,7 +214,7 @@ li a:hover{
 
 .i-folder::before {
     position: absolute;
-    left: -20px;
+    left: -22px;
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     content: "\f07b";
@@ -224,7 +224,7 @@ li a:hover{
 
 .i-user-plus::before {
     position: absolute;
-    left: -20px;
+    left: -22px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f234";
@@ -233,7 +233,7 @@ li a:hover{
 
 .i-pencil::before {
     position: absolute;
-    left: -20px;
+    left: -22px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f303";
@@ -243,7 +243,7 @@ li a:hover{
 
 .i-smile::before {
     position: absolute;
-    left: -20px;
+    left: -22px;
     font-family: "Font Awesome 5 Free";
     font-weight: 400;
     content: "\f118";
@@ -280,7 +280,7 @@ li a:hover{
 }
 .content li::before{
     position: absolute;
-    left: -20px;
+    left: -22px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f00c";
@@ -433,14 +433,11 @@ li a:hover{
 
 .container-6 .quadrato .quadrati-dentro img{
     width: 40%;
-    
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(50% - 50%);
+    transform: translate(50%, - 50%);
     filter: invert(100%);
-
-
     /* ERRORE TRANSLATE */
 }
 
