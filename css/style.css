@@ -183,7 +183,7 @@ li a:hover{
 .content{
     width: 100%;
     height: calc(100% - 30px);
-    padding:20px 30px;
+    padding:20px 50px;
 }
 
 .content h2{
@@ -202,9 +202,56 @@ li a:hover{
     position: relative;
 }
 
-.fa-check{
-    color: rgb(42, 96, 246);
+.i-user::before {
+    position: absolute;
+    left: -20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f007";
+    color: #000;
+    margin-right: 10px;
 }
+
+.i-folder::before {
+    position: absolute;
+    left: -20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f07b";
+    color: #000;
+    margin-right: 10px;
+}
+
+.i-user-plus::before {
+    position: absolute;
+    left: -20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f234";
+    color: #000;
+}
+
+.i-pencil::before {
+    position: absolute;
+    left: -20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f303";
+    color: #000;
+    margin-right: 10px;
+}
+
+.i-smile::before {
+    position: absolute;
+    left: -20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f118";
+    color: #000;
+    margin-right: 10px;
+}
+
+
 
 .tripla a{
     color: #fff;
@@ -225,10 +272,20 @@ li a:hover{
 
 .lista{
     margin-top: 70px;
+    position: relative;
 }
 
 .lista ul li{
     padding: 10px 0;
+}
+.content li::before{
+    position: absolute;
+    left: -20px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+    color: #0061ff;
+    margin-right: 10px;
 }
 /* // main 2 */
 
@@ -248,54 +305,7 @@ li a:hover{
     text-align: center;
 }
 
-.i-user::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f007";
-    color: #000;
-    margin-right: 10px;
-}
 
-
-
-.i-folder::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f07b";
-    color: #000;
-    margin-right: 10px;
-}
-
-.i-user-plus::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f234";
-    color: #000;
-}
-
-.i-pencil::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f303";
-    color: #000;
-    margin-right: 10px;
-}
-
-.i-smile::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 400;
-    content: "\f118";
-    color: #000;
-    margin-right: 10px;
-}
-
-.content li::before{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f00c";
-    color: #0061ff;
-    margin-right: 10px;
-}
 .team-content{
     width: 100%;
     height: 170px;
